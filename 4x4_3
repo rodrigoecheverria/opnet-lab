@@ -1,0 +1,538 @@
+|-----------------------------------------------------------------------------|
+|   ____   _____   _   _  ______  _______                                     |
+|  / __ \ |  __ \ | \ | ||  ____||__   __| Simulation and Model Library       |
+| | |  | || |__) ||  \| || |__      | |    Copyright 1986-2007 by             |
+| | |  | ||  ___/ | . ` ||  __|     | |    OPNET Technologies, Inc.           |
+| | |__| || |     | |\  || |____    | |    as a part of OPNET Release 14.0    |
+|  \____/ |_|     |_| \_||______|   |_|                                       |
+|-----------------------------------------------------------------------------|
+|                Making  Networks  and  Applications  Perform                 |
+|-----------------------------------------------------------------------------|
+|   OPNET Technologies, Inc. / 7255 Woodmont Av. / Bethesda, MD 20814, USA    |
+|   WEB: http://www.opnet.com / TEL: +1.240.497.3000 / FAX: +1.240.497.3001   |
+|-----------------------------------------------------------------------------|
+| Protected by U.S. Patent 6,820,042.                                         |
+|-----------------------------------------------------------------------------|
+| Network Simulation of: Pattern_analysis-pattern_test_4x4                    |
+|-----------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|
+| Simulation process ID is 5922                                               |
+|-----------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|
+| Kernel: development (not optimized), sequential, 64-bit address space       |
+|-----------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|
+| Reading network model (Pattern_analysis-pattern_test_4x4)                   |
+|-----------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|
+| Reading result collection file: (Pattern_analysis-pattern_test_4x4)         |
+|-----------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|
+| Verifying model consistency.                                                |
+|-----------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|
+| Loading scenario model library.                                             |
+|-----------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|
+| Counting objects.                                                           |
+|-----------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|
+| Allocating objects.                                                         |
+|-----------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|
+| Allocating objects.                                                         |
+|-----------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|
+| Allocating attributes.                                                      |
+|-----------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|
+| Installing subnetworks and nodes.                                           |
+|-----------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|
+| Installing links.                                                           |
+|-----------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|
+| Constructing model hierarchy.                                               |
+|-----------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|
+| Creating node contents.                                                     |
+|-----------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|
+| Attaching links to nodes.                                                   |
+|-----------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|
+| Preparing for results collection.                                           |
+|-----------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|
+| Releasing Model Memory.                                                     |
+|-----------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|
+| Opening results file.                                                       |
+|-----------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|
+| Final initializations for all objects.                                      |
+|-----------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|
+| Initializing results.                                                       |
+|-----------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|
+| Progress: Time (0.00 sec.); Events (0)                                      |
+| Speed: Average (0 events/sec.); Current (0 events/sec.)                     |
+| Time: Elapsed (0.00 sec.)                                                   |
+|-----------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|
+| Beginning Simulation.                                                       |
+|-----------------------------------------------------------------------------|
+
+Naming switchs...
+
+Node: node_1		(x,y)-> (0,0)
+Node: node_2		(x,y)-> (1,0)
+Node: node_4		(x,y)-> (2,0)
+Node: node_6		(x,y)-> (3,0)
+Node: node_18		(x,y)-> (3,1)
+Node: node_15		(x,y)-> (2,1)
+Node: node_13		(x,y)-> (1,1)
+Node: node_12		(x,y)-> (0,1)
+Node: node_32		(x,y)-> (0,2)
+Node: node_33		(x,y)-> (1,2)
+Node: node_35		(x,y)-> (2,2)
+Node: node_38		(x,y)-> (3,2)
+Node: node_54		(x,y)-> (3,3)
+Node: node_51		(x,y)-> (2,3)
+Node: node_49		(x,y)-> (1,3)
+Node: node_48		(x,y)-> (0,3)
+ config_SW:16 sw_counter:16
+ Sale num_SWs:16 num_nodes:16 total_LKs: 40 NETWORK size (x,y): 3,3
+
+ Splitting port info  ...
+
+ Cleaning up ...
+THREs H : L9:3
+THREs H : L9:3
+THREs H : L9:3
+THREs H : L9:3
+THREs H : L9:3
+THREs H : L9:3
+THREs H : L9:3
+THREs H : L9:3
+THREs H : L9:3
+THREs H : L9:3
+THREs H : L9:3
+THREs H : L9:3
+
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 3
+ All paths are open open max time(1.00006 s)
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 3
+ All paths are open open max time(1.00007 s)
+ Opening path 2
+ Opening path 2
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 3
+ All paths are open open max time(1.00008 s)
+ Opening path 3
+ Opening path 1
+ Opening path 3
+ Opening path 2
+ Opening path 2
+ Opening path 1
+ Opening path 3
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 2
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1|-----------------------------------------------------------------------------|
+| Progress: Time (1.0 sec.); Events (500,007)                                 |
+| Speed: Average (901,280 events/sec.); Current (901,280 events/sec.)         |
+| Time: Elapsed (0.55 sec.)                                                   |
+|-----------------------------------------------------------------------------|
+
+ Opening path 3
+ All paths are open open max time(1.00013 s)
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 3
+ Opening path 1
+ Opening path 2
+ Opening path 2
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 2
+ Opening path 3
+ Opening path 3
+ Opening path 3
+ Opening path 2
+ Opening path 2
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 3
+ All paths are open open max time(1.00019 s)
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 2
+ Opening path 2
+ Opening path 1
+ Opening path 3
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 3
+ Opening path 3
+ All paths are open open max time(1.00019 s)
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 3
+ Opening path 2
+ Opening path 2
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 3
+ All paths are open open max time(1.0002 s)
+ Opening path 2
+ Opening path 2
+ Opening path 2
+ Opening path 2
+ Opening path 2
+ Opening path 2
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 3
+ Opening path 2
+ Opening path 1
+ Opening path 1|-----------------------------------------------------------------------------|
+| Progress: Time (1.0 sec.); Events (1,000,014)                               |
+| Speed: Average (912,251 events/sec.); Current (923,493 events/sec.)         |
+| Time: Elapsed (1.1 sec.)                                                    |
+|-----------------------------------------------------------------------------|
+
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 3
+ Opening path 3
+ Opening path 2
+ Opening path 3
+ Opening path 2
+ Opening path 2
+ Opening path 2
+ Opening path 1
+ Opening path 3
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 2
+ Opening path 1
+ Opening path 2
+ Opening path 3
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 3
+ Opening path 3
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1|-----------------------------------------------------------------------------|
+| Progress: Time (1.0 sec.); Events (1,500,024)                               |
+| Speed: Average (916,246 events/sec.); Current (924,342 events/sec.)         |
+| Time: Elapsed (1.6 sec.)                                                    |
+|-----------------------------------------------------------------------------|
+
+ Opening path 3
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 2
+ Opening path 1
+ Opening path 3
+ All paths are open open max time(1.00048 s)
+ Opening path 2
+ Opening path 1
+ Opening path 3
+ Opening path 1
+ Opening path 3
+ Opening path 2
+ Opening path 3
+ All paths are open open max time(1.00049 s)
+ Opening path 2
+ Opening path 1
+ Opening path 1|-----------------------------------------------------------------------------|
+| Progress: Time (1.0 sec.); Events (2,000,024)                               |
+| Speed: Average (918,907 events/sec.); Current (926,985 events/sec.)         |
+| Time: Elapsed (2.2 sec.); Remaining (0.00 sec.)                             |
+|-----------------------------------------------------------------------------|
+
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 3
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1|-----------------------------------------------------------------------------|
+| Progress: Time (1.0 sec.); Events (2,500,026)                               |
+| Speed: Average (920,873 events/sec.); Current (928,820 events/sec.)         |
+| Time: Elapsed (2.7 sec.); Remaining (0.00 sec.)                             |
+|-----------------------------------------------------------------------------|
+
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 2
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 2
+ Opening path 1
+ Opening path 3
+ Opening path 3
+ Opening path 3
+ Opening path 1
+ Opening path 1
+ Opening path 3
+ All paths are open open max time(1.00066 s)
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 3
+ Opening path 2
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 3|-----------------------------------------------------------------------------|
+| Progress: Time (1.0 sec.); Events (3,000,035)                               |
+| Speed: Average (922,052 events/sec.); Current (927,994 events/sec.)         |
+| Time: Elapsed (3.3 sec.); Remaining (0.00 sec.)                             |
+|-----------------------------------------------------------------------------|
+
+ Opening path 1
+ Opening path 3
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 3
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 2
+ Opening path 3
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 2|-----------------------------------------------------------------------------|
+| Progress: Time (1.0 sec.); Events (3,500,036)                               |
+| Speed: Average (922,727 events/sec.); Current (926,799 events/sec.)         |
+| Time: Elapsed (3.8 sec.); Remaining (0.00 sec.)                             |
+|-----------------------------------------------------------------------------|
+
+ Opening path 1
+ Opening path 1
+ Opening path 3
+ All paths are open open max time(1.0009 s)
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 3
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 1
+ Opening path 1
+ Opening path 1
+ Opening path 2
+ Opening path 3
+offered_load: 1.21133e+09	received_load: 1.20768e+09	Global_Av_Lat: 4.43169e-06
+	 global_generated_pks: 18927	 global_received_pks: 18870	 acks_received: 17645
+|-----------------------------------------------------------------------------|
+| Simulation Completed - Collating Results.                                   |
+| Events: Total (3,952,737); Average Speed (923,404 events/sec.)              |
+| Time  : Elapsed (4.3 sec.); Simulated (1.0 sec.)                            |
+| DES Log: 1 entry                                                            |
+|-----------------------------------------------------------------------------|
